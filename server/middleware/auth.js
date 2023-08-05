@@ -17,11 +17,6 @@ const auth = async (req, res, next) => {
 
             req.userId = decodeData?.id
 
-        } else {
-            //Else of token is google token then do this
-            decodeData = jwt.decode(token)
-
-            req.userId = decodeData?.sub
         }
 
         next()

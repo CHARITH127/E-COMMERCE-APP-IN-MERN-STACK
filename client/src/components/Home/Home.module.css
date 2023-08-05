@@ -32,6 +32,9 @@
   margin: 30px auto;
   margin-top: 70px;
   line-height: 60px;
+  display: flex;
+  flex-direction: column;
+  gap: 127px;
 }
 
 .hero h1 {
@@ -55,7 +58,7 @@
   justify-content: center;
 }
 .hero img {
-  width: 1200px;
+  width: 567px;
   margin: 0px auto;
 }
 
